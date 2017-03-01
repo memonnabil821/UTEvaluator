@@ -1,0 +1,89 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+
+#head img {
+    padding: 20px 25%;
+    /*    border: 2px solid black;*/
+}
+
+.menu {
+    background-color: #b30000;
+    padding: 6px 37%;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu a:hover {
+    color: #d9d9d9;
+}
+
+.sp {
+    padding: 0px 20px;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+#login {
+    display: block;
+    margin: 10% 0 0 37%;
+}
+
+.lb {
+    display: inline;
+    font-size: 20px;
+}
+
+#sp {
+    padding-left: 52px;
+}
+
+.text {
+    padding: 1%;
+    margin-left: 2%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#sub {
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+    padding: 6px 50px;
+}
+
+#divpass {
+    padding-top: 2%;
+}
+
+#divsubmit {
+    margin-left: 15%;
+    padding-top: 4%;
+}
+
+#forpass {
+    margin-left: 21%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px 0px;
+    background-color: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    text-align: right;
+}

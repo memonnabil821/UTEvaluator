@@ -1,0 +1,99 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+
+#head img {
+    padding: 20px 25%;
+    /*    border: 2px solid black;*/
+}
+
+.menu {
+    background-color: #b30000;
+    padding: 6px 37%;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu a:hover {
+    color: #d9d9d9;
+}
+
+.sp {
+    padding: 0px 20px;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.class {
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 16px;
+}
+
+#article1 {
+    padding: 10px 0 0 15%;
+}
+
+.lb {
+    padding: 5px 0 0 6%;
+    font-size: 20px;
+}
+
+.text {
+    font-size: 18px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#dv {
+    margin-left: 18%;
+}
+
+#tt {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    font-weight: bold;
+}
+
+#sub {
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 32%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px grey;
+    padding: 6px 50px;
+}
+
+#sub::before {
+    content: url(../images/rsz_search.png);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px 0px;
+    background-color: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    text-align: right;
+}

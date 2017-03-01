@@ -1,0 +1,187 @@
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+}
+
+#head img {
+    padding: 20px 25%;
+    /*    border: 2px solid black;*/
+}
+
+.menu {
+    background-color: #b30000;
+    padding: 6px 0 6px 5%;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    color: #d9d9d9;
+}
+
+.sp {
+    padding: 0px 20px;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+#article1 {
+    padding: 10px 0 0 15%;
+}
+
+#div_all {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.lb {
+    display: inline;
+    font-size: 20px;
+}
+
+.text {
+    padding: 5px;
+    margin-left: 1%;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.class {
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.subjects {
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#submit {
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+    padding: 6px 50px;
+}
+
+#lb1 {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#lb2 {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#lb3 {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#class1 {
+    display: inline;
+}
+
+#sub1 {
+    display: inline;
+    padding-left: 10%;
+}
+
+#no1 {
+    padding-top: 2%;
+    padding-left: 25%;
+}
+
+#class2 {
+    display: inline;
+}
+
+#sub2 {
+    display: inline;
+    padding-left: 10%;
+}
+
+#no2 {
+    padding-top: 2%;
+    padding-left: 25%;
+}
+
+#class3 {
+    display: inline;
+}
+
+#sub3 {
+    display: inline;
+    padding-left: 10%;
+}
+
+#no3 {
+    padding-top: 2%;
+    padding-left: 25%;
+}
+
+#bit{
+    padding-top: 2%;
+    padding-left: 15%;
+}
+
+#submit::before {
+    content: url(../images/admin.png);
+}
+
+#sub {
+    margin: 5% 35%;
+}
+#subit::before{
+    content:url(../images/searchg.png);
+}
+.lb3 {
+    display: inline;
+    font-size: 20px;
+}
+.text3 {
+    padding: 1px;
+    margin-left: 2%;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px 0px;
+    background-color: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    font-size: 12px;
+    text-align: right;
+}
+
+
+#name{
+    width: 400px;
+    padding: 5px;
+    margin-left: 1%;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#batch{
+    margin-left: 10%;
+    display: inline;
+    padding-left: 10%;
+}
