@@ -37,7 +37,7 @@
 
     <body>
         <div class="container">
-            <header id="head1">
+            <header id="head">
                 <img src="../images/logo1.png" alt="logo1.png">
             </header>
             <form action="../html/add_stud.php" method="post" name="form1" onsubmit="return validate()">
